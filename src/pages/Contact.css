@@ -1,0 +1,37 @@
+/* Contact.css */
+/* contact.css */
+.contact-container {
+  max-width: 700px;
+  margin: auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(77, 166, 255, 0.2);
+}
+
+.contact-title {
+  text-align: center;
+  font-size: 1.8rem;
+  color: #4da6ff;
+  margin-bottom: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.contact-form button {
+  background: linear-gradient(45deg, #ff4da6, #4da6ff);
+  border: none;
+  padding: 12px;
+  width: 100%;
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+}

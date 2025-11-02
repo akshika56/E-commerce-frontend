@@ -1,0 +1,78 @@
+.register-container {
+  max-width: 400px;
+  margin: 60px auto;
+  padding: 25px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.register-container h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px 12px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+  transition: border 0.3s;
+}
+
+.form-group input:focus {
+  border-color: #ff6f61; /* Same playful theme as Login */
+}
+
+.register-btn {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  background: #ff6f61;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.register-btn:hover {
+  background: #e85b50;
+}
+
+.error {
+  color: red;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.register-container p {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.register-container a {
+  color: #ff6f61;
+  text-decoration: none;
+}
+
+.register-container a:hover {
+  text-decoration: underline;
+}
+

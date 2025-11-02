@@ -1,0 +1,22 @@
+/* orderhistory.css */
+.order-history-container {
+  padding: 20px;
+}
+
+.order-card {
+  background: #fff;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(77, 166, 255, 0.2);
+}
+
+.order-card h4 {
+  margin: 0 0 10px;
+  color: #4da6ff;
+}
+
+.order-card p {
+  margin: 4px 0;
+  color: #333;
+}

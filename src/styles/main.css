@@ -1,0 +1,97 @@
+/* main.css */
+
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global font + background */
+body {
+  font-family: "Arial", sans-serif;
+  background: linear-gradient(to right, #fce4ec, #e3f2fd); /* soft pink → soft blue */
+  color: #333;
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: #1976d2; /* blue shade */
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #d81b60; /* pink shade */
+}
+
+/* Buttons (shared style across app) */
+button {
+  background: #1976d2; /* blue */
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #d81b60; /* pink on hover */
+}
+
+/* Containers */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  color: #1976d2; /* blue headings */
+  margin-bottom: 15px;
+}
+
+/* Cards */
+.card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Forms (global styles for login, register, checkout etc.) */
+form {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+input, textarea, select {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+input:focus, textarea:focus, select:focus {
+  border-color: #1976d2; /* blue focus */
+  outline: none;
+  box-shadow: 0 0 4px rgba(25, 118, 210, 0.3);
+}
